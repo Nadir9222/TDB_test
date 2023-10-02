@@ -1,6 +1,7 @@
+
 import string
 
-def crypt(message):
+def cryptage(message):
     caracteres = string.ascii_letters + string.punctuation + string.digits + " "
     message_crypte = ""
 
@@ -16,5 +17,5 @@ def crypt(message):
 
 # Exemple d'utilisation :
 message = "fizzbuzz"
-message_crypte = crypt(message)
+message_crypte = cryptage(message)
 print(message_crypte)
